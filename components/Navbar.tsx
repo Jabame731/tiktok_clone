@@ -8,7 +8,7 @@ import { BiSearch } from 'react-icons/bi';
 import { IoMdAdd } from 'react-icons/io';
 import logo from '../utils/tiktik-logo.png';
 import { GoogleLogin, googleLogout } from '@react-oauth/google';
-import { FlashOnTwoTone, Router } from '@mui/icons-material';
+
 import { createOrGetUser } from '../utils';
 
 import userAuthStore from '../store/authStore';
