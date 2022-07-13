@@ -140,8 +140,7 @@ const Upload = () => {
                       loop
                       src={videoAsset?.url}
                     />
-                    <div className=' flex justify-between gap-20'>
-                      <p className='text-lg'>{videoAsset.originalFilename}</p>
+                    <div className=' flex justify-between'>
                       <button
                         type='button'
                         className=' rounded-full bg-gray-200 text-red-400 p-2 text-xl cursor-pointer outline-none hover:shadow-md transition-all duration-500 ease-in-out'
@@ -161,7 +160,7 @@ const Upload = () => {
             </p>
           )}
         </div>
-        <div className='flex flex-col gap-3 pb-10'>
+        <div className='flex flex-col gap-3 pb-10 mt-10'>
           <label className='text-md font-medium '>Caption</label>
           <input
             type='text'
